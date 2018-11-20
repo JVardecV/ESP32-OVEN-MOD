@@ -84,6 +84,7 @@ Adafruit_MAX31855 thermocouple(MAX_CLK, MAX_CS, MAX_DO);
 //#define T_reflow 249 - T_const
 
 // "Medium-temp" lead-free solder paste (melting point around 183*C)
+//Ideal para pastas de soldar de procedencia China
 #define T_preheat 135
 #define T_soak 183
 #define T_reflow 200 - T_const
